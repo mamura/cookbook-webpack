@@ -1,0 +1,30 @@
+{
+  "name": "cookbook-webpack",
+  "version": "1.0.0",
+  "description": "Meus cookbooks são receitas rápidas de como executar procedimentos para agilizar no desenvolvimento de novas aplicações. Aqui você vai encontrar tutoriais, passo a passos, etc. É uma amálgama das coisas que eu já usei e que volta e meia me pego precisando utilizar novamente. Afim de facilitar minha vida (já que minha memória não é das melhores), publico aqui esses documentos afim de me ajudar no futuro e ajudar quem também precisar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamura/cookbook-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamura/cookbook-webpack/issues"
+  },
+  "homepage": "https://github.com/mamura/cookbook-webpack#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "mini-css-extract-plugin": "^2.1.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.42.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

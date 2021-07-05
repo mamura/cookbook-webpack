@@ -27,8 +27,8 @@ O parâmetro **-y** pula as perguntas de criação do arquivo.
     npm install webpack webpack-cli --save-dev
     ```
 
-4. Criar o arquivo **webpack.config.json**
-É nesse arquivo que é feito todas as configurações de entrada, saída e adição de plugins utilizados. Neste caso, irei configurar o uso para scss (SASS) e javascript. Crie o arquivo webpack.config.json na raiz do projeto com esse conteúdo:
+4. Criar o arquivo **webpack.config.js**
+É nesse arquivo que é feito todas as configurações de entrada, saída e adição de plugins utilizados. Neste caso, irei configurar o uso para scss (SASS) e javascript. Crie o arquivo webpack.config.js na raiz do projeto com esse conteúdo:
 
     ``` javascript
     const path = require('path');
